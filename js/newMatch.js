@@ -188,7 +188,7 @@ $('.presetChat').on('click', function(event){
 
 let clickCounter = 1;
 let adCounter = 0;
-let adArray = ['#ad1','#ad2', '#ad3', '#ad4'];
+let adArray = ['#ad1', '#ad3', '#ad4'];
 function adEnabler(){
   if(clickCounter%2 == 0){
     $(adArray[adCounter]).modal();
