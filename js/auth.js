@@ -28,8 +28,6 @@ var uiConfig = {
     // ^^ http://127.0.0.1:5500/index.html
     // took out the extras..because..simplicity
     firebase.auth.GoogleAuthProvider.PROVIDER_ID,
-    firebase.auth.EmailAuthProvider.PROVIDER_ID,
-    firebase.auth.FacebookAuthProvider.PROVIDER_ID,
   ],
   // Terms of service url.
   tosUrl: "/index.html",
